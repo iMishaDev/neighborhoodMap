@@ -1,0 +1,147 @@
+html,
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  color: black;
+}
+
+.container {
+  height: 100%;
+  position: relative;
+}
+
+input {
+  font-size: 12px;
+}
+
+a {
+  color: gray;
+}
+
+.list {
+  list-style-type: none;
+  width: 500px;
+}
+
+h3 {
+  font: bold 20px/1.5;
+}
+
+.item {
+  font: 200 12px/1.5;
+  color: white;
+  padding: 10px;
+  overflow: auto;
+}
+
+.item:hover {
+  background: gray;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 22px;
+  margin: 0 0 10px 0;
+  text-align: center;
+  color: white;
+}
+
+hr {
+  background: #D0D7D9;
+  height: 1px;
+  margin: 20px 0 20px 0;
+  border: none;
+}
+
+.search {
+  display: flex;
+}
+
+#map {
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0px;
+}
+
+.options-box {
+  background: #404040;
+  border: 1px solid #404040;
+  border-radius: 3px;
+  height: 100%;
+  line-height: 35px;
+  padding: 10px 10px 30px 10px;
+  text-align: left;
+  width: 32%;
+}
+
+#pano {
+  width: 200px;
+  height: 200px;
+}
+
+#places-search {
+  width: 100%;
+}
+
+input[type="search"] {
+  height: 35px;
+  border: 0px;
+  ;
+  background: lightgray;
+}
+
+.text {
+  font-size: 12px;
+}
+
+span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 1px;
+  transition: 0.5s;
+  color: white;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  overflow: scroll;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+  .item {
+    font-size: 10px;
+  }
+}
