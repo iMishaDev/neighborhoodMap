@@ -5,6 +5,7 @@ A neighborhood map created using google maps, it has the functionality to filter
 
 ## Where to start?
 - Open **index.html** page to navigate through it.
+- view a life version : [here](https://rawgit.com/iMishaDev/neighborhoodMap/master/map/index.html).
 
 
 ## Tools used to build this Map:
